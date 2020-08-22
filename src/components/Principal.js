@@ -19,7 +19,7 @@ const Principal = () =>{
   
     const PrincipalStyle = {
 
-        backgroundImage : `url(${background})`,
+        backgroundImage : `url('${background}')`,
         backgroundRepeat : 'no-repeat',
         backgroundSize: 'cover'
 

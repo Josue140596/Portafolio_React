@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Imagenes
-// import background from '../img/background.png';
+import background from '../img/backcss.png';
 
 // icons
 import linkedinIconBlack from '../img/linkedin-negro.png';
@@ -19,7 +19,7 @@ const Principal = () =>{
   
     const PrincipalStyle = {
 
-        backgroundImage : `url('/backcss.png')`,
+        backgroundImage : `url(${background})`,
         backgroundRepeat : 'no-repeat',
         backgroundSize: 'cover'
 

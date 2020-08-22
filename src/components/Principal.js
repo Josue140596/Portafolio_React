@@ -19,7 +19,7 @@ const Principal = () =>{
   
     const PrincipalStyle = {
 
-        backgroundImage : `url(require("../img/backcss.png"))`,
+        backgroundImage : `url(require("img/backcss.png"))`,
         backgroundRepeat : 'no-repeat',
         backgroundSize: 'cover'
 

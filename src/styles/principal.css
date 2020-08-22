@@ -1,0 +1,181 @@
+.principal{
+   
+    /* border: solid 10px rgb(21, 255, 0); */
+    height: 100vh;
+    
+}
+.header{
+    border: solid 1px red;
+    height: 58px;
+    overflow: hidden;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li{
+    float: right;
+}
+
+/* linkedin */
+
+
+.linkedin {
+    cursor: pointer;
+    width: 63px;
+  
+}
+.linkedinIconBlack{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.linkedinIconWhite{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    transition: 0.2s;
+
+}
+.linkedin:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+ .linkedin:hover .linkedinIconBlack{
+    top: -50px;
+    
+    
+}
+
+.linkedin:hover .linkedinIconWhite{
+    top:-12px;
+    color: aliceblue;
+    
+  }
+
+
+
+/* github */
+
+
+.github {
+    cursor: pointer;
+    width: 63px;
+  
+}
+.githubIconBlack{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.githubIconWhite{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    transition: 0.2s;
+
+}
+.github:hover{
+    background-color: rgb(236, 227, 91);
+    transition: 0.5s;
+}
+ .github:hover .githubIconBlack{
+    top: -50px;
+    
+    
+}
+
+.github:hover .githubIconWhite{
+    top:-12px;
+    color: aliceblue;
+    
+  }
+
+
+
+  /* facebook */
+
+
+.facebook {
+    cursor: pointer;
+    width: 63px;
+  
+}
+.facebookIconBlack{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.facebookIconWhite{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    transition: 0.2s;
+
+}
+.facebook:hover{
+    background-color: rgb(5, 90, 202);
+    transition: 0.5s;
+}
+ .facebook:hover .facebookIconBlack{
+    top: -50px;
+    
+    
+}
+
+.facebook:hover .facebookIconWhite{
+    top:-12px;
+    color: aliceblue;
+    
+  }
+
+
+
+
+  /* twitter */
+
+
+.twitter {
+    cursor: pointer;
+    width: 63px;
+  
+}
+.twitterIconBlack{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.twitterIconWhite{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    transition: 0.2s;
+
+}
+.twitter:hover{
+    background-color: rgb(82, 178, 202);
+    transition: 0.5s;
+}
+ .twitter:hover .twitterIconBlack{
+    top: -50px;
+    
+    
+}
+
+.twitter:hover .twitterIconWhite{
+    top:-12px;
+    color: aliceblue;
+    
+  }

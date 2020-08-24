@@ -10,7 +10,7 @@ const Main = ()=>{
         <div className='main'>
 
             
-            <img className='mainLogo'  src={LogoBRYANS} alt='LogoSBS'/>
+            <img src={LogoBRYANS} alt='LogoSBS' />
 
 
         </div>

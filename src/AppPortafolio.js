@@ -1,5 +1,7 @@
 import React from 'react';
 import Principal from './components/Principal';
+import About from './components/About';
+
 
 
 const AppPortafolio = () =>{
@@ -8,6 +10,8 @@ const AppPortafolio = () =>{
 
         <>
         <Principal />
+        <About />
+       
 
         </>
     )

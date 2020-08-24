@@ -1,0 +1,64 @@
+.main{
+    /* border: solid 1px blue; */
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    overflow: hidden;
+
+}
+
+
+
+
+.mainLogo{
+
+    width: 500px;
+    margin: 0;
+    height: 600px;
+
+}
+
+
+/* @media only screen and (max-width:800px) { */
+    /* For tablets: */
+    /* .main {
+      width: 80%;
+      padding: 0;
+    }
+   
+  } */
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .Menu  {
+      width: 100%;
+      height: 230px;
+    }
+    .menuitem{
+        text-align: center;
+        margin-top: 0px;
+        background-color: #00040e;
+        border: solid 0.5px #ffffff63;
+        color: white;
+    }
+    .underlying{
+        display: none;
+    }
+    .textMain{
+        font-size: 27px;
+        padding: 0;
+    }
+    .main   {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .mainLogo{
+        height: 293px;
+        width: 277px;
+    }
+   
+    
+    li{
+        padding-right: 5%;
+    }
+    
+  }

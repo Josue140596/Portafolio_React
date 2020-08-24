@@ -1,0 +1,33 @@
+.about{
+    padding: 80px;
+    background: #fafafa;
+}
+
+.credencial{
+    box-shadow: 1px 1px 2px 0px #00000021;
+    overflow: auto;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgb(255 255 255) 93%, rgb(130 130 130) 93%, rgb(130 130 130) 100%);
+}
+
+.ContentTextAbout{
+    padding-left: 10%;
+    font-size: 25px;
+
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .about{
+        padding: 20px;
+        
+    } 
+    .credencial{
+        box-shadow: 1px 1px 20px 4px #00000021;
+    }
+    .ContentTextAbout{
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+}

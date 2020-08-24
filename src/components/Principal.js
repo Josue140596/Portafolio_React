@@ -1,4 +1,6 @@
 import React from 'react';
+import Menu from './Menu';
+import Main from './Main';
 
 // // Imagenes
 // import background from '../img/backcss.png';
@@ -14,12 +16,13 @@ import twitterIconBlack from '../img/T-negro.png';
 import twitterIconWhite from '../img/T-blanco.png';
 
 
+
 const Principal = () =>{
 
   
     const PrincipalStyle = {
 
-        backgroundImage : `url(require("img/backcss.png"))`,
+        background : 'linear-gradient(to right, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 50%, rgba(130,130,130,1) 50%, rgba(130,130,130,1) 100%)',
         backgroundRepeat : 'no-repeat',
         backgroundSize: 'cover'
 
@@ -81,6 +84,16 @@ const Principal = () =>{
                 
                 </ul>
             </div>
+        
+        
+            <div style={{overflow: "auto"}}>
+                <Menu />
+
+                <Main />
+            
+            </div>
+        
+    
         </div>
     )
 

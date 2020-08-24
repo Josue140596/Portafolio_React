@@ -5,7 +5,7 @@
     
 }
 .header{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 58px;
     overflow: hidden;
 }
@@ -84,7 +84,7 @@ li{
 
 }
 .github:hover{
-    background-color: rgb(236, 227, 91);
+    background-color: rgb(44 44 42);
     transition: 0.5s;
 }
  .github:hover .githubIconBlack{

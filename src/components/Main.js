@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LogoBS from '../img/LogoBS.png'
+import LogoBRYANS from '../img/LogoBS.png'
 
 
 const Main = ()=>{
@@ -10,7 +10,7 @@ const Main = ()=>{
         <div className='main'>
 
             
-            <img className='mainLogo'  src={LogoBS} alt='LogoBS'/>
+            <img className='mainLogo'  src={LogoBRYANS} alt='LogoSBS'/>
 
 
         </div>

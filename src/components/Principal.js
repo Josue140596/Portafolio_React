@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from './Menu';
-import Main from './Main';
+import ContentMain from './ContentMain';
 
 // // Imagenes
 // import background from '../img/backcss.png';
@@ -89,7 +89,7 @@ const Principal = () =>{
             <div style={{overflow: "auto"}}>
                 <Menu />
 
-                <Main />
+                <ContentMain />
             
             </div>
         

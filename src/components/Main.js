@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LogoBRYANS from '../img/LogoBS.png'
+import LogoBRYANS from '../img/LogoBryanSanchez.png'
 
 
 const Main = ()=>{

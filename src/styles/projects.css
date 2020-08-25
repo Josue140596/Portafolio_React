@@ -1,0 +1,97 @@
+.Projects{
+    padding: 80px;
+    background-color: #fafafa;
+
+}
+.titleProjects{
+    text-align: end;
+    letter-spacing: 1px;
+}
+
+
+.contentProjects{
+    padding: 50px;
+    box-shadow: 0px 0px 7px 0px #00000021;
+    overflow: hidden;
+    /* border: solid 1px red; */
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3%;
+
+}
+
+.cardsProjects{
+    width: 24%;
+    box-shadow: 0px 0px 6px 3px #00000040;
+    height: 250px;
+    background: #3f3f3f;
+    overflow: hidden;
+    /* border: solid 1px; */
+    margin: 5px;
+    position: relative;
+
+}
+
+.shadowProjects{
+    transition: 0.5s;
+    width: 100%;
+    top: 100%;
+    background: #32c6d0;
+    height: 100%;
+    position: absolute;
+}
+
+.tituloProjects{
+    color: white;
+    text-align: center;
+}
+.infoProjects{
+    padding: 20px;
+    font-family: verdana;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* color: white; */
+    /* letter-spacing: 2px; */
+    text-align: center;
+
+}
+
+.ImageProject{
+    padding-left: 61px;
+    width: 200px;
+}
+@media only screen and (max-width:800px) {
+    .Projects{
+        padding: 9px;
+        background-color: #fafafa;
+    
+    }
+    .titleProjects{
+        text-align: end;
+        letter-spacing: 1px;
+    }
+    
+    
+    .contentProjects{
+        padding: 5px;
+        box-shadow: 0px 0px 12px 0px #000000a6;
+        overflow: hidden;
+        /* border: solid 1px red; */
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 3%;
+    
+    }
+    .cardsProjects{
+        width: 100%;
+        box-shadow: 0px 0px 6px 3px #00000040;
+        
+    
+    }
+
+
+}

@@ -33,8 +33,9 @@ const Projects =()=>{
             <div className='contentProjects'>
                 <div className='cardsProjects' onMouseOver={upInfoProjects} onMouseLeave={downInfoProjects}>
                 <h1 className='tituloProjects' >Buscador Giff</h1>
-
-                    <img className='ImageProject'  src='https://cdn.worldvectorlogo.com/logos/react.svg' alt='logoReact'/>
+                  
+                        <img className='ImageProject'  src='https://cdn.worldvectorlogo.com/logos/react.svg' alt='logoReact'/>
+                  
                 
                 <div className='shadowProjects'style={state}>
                     <p className='infoProjects'>

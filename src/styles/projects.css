@@ -41,6 +41,8 @@
     background: #32c6d0;
     height: 100%;
     position: absolute;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(255 255 255 / 0%) 12%,
+     rgb(103 170 179 / 89%) 32%, rgb(0 252 255 / 96%) 100%);
 }
 
 .tituloProjects{
@@ -52,15 +54,20 @@
     font-family: verdana;
     font-size: 20px;
     text-transform: uppercase;
-    /* color: white; */
+    /* size: letter; */
+    text-shadow: 1px 1px 4px #ffffff;
+    /* color: #0c242e; */
     /* letter-spacing: 2px; */
     text-align: center;
-
 }
+/* .contentImageProject{
 
+} */
 .ImageProject{
-    padding-left: 61px;
-    width: 200px;
+    width: 160px;
+    margin: auto;
+    padding-top: -34px;
+    display: block;
 }
 @media only screen and (max-width:800px) {
     .Projects{

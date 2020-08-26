@@ -1,10 +1,10 @@
 import React from 'react';
 
-// import LogoBRYANS from '../img/LogoBryanSanchez.png'
 
 
 
 
+ 
 const ContentMain = ()=>{
 
     return(
@@ -12,7 +12,7 @@ const ContentMain = ()=>{
         <div className='main'>
 
             
-            <img className='mainLogo' src="https://i.ibb.co/DkssYLW/Logo-Bryan-Sanchez.png" alt='LogoSBS' />
+            <img className='mainLogo' src="https://i.ibb.co/Kz25ys5/Logo-Bryan-Sanch.png" alt='LogoSBS' />
 
 
         </div>

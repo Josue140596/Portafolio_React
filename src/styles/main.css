@@ -2,7 +2,7 @@
     /* border: solid 1px blue; */
     float: left;
     width: 70%;
-    padding: 0 20px;
+    padding: 0 11px;
     overflow: hidden;
 
 }
@@ -11,11 +11,9 @@
 
 
 .mainLogo{
-
-    width: 500px;
-    margin: 0;
-    height: 600px;
-
+    width: 530px;
+    
+    height: 626px;
 }
 
 
@@ -34,11 +32,13 @@
       height: 230px;
     }
     .menuitem{
-        text-align: center;
-        margin-top: 0px;
-        background-color: #00040e;
-        border: solid 0.5px #ffffff63;
-        color: white;
+      text-align: center;
+      letter-spacing: 0px;
+      box-shadow: 2px -9px 13px 0px #00000033;
+      margin-top: 0px;
+      background-color: #00000091;
+      border: solid 5.5px #ffffff00;
+      color: white;
     }
     .underlying{
         display: none;

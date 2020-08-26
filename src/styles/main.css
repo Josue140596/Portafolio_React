@@ -54,6 +54,8 @@
     .mainLogo{
         height: 293px;
         width: 277px;
+        display: block;
+        margin: auto;
     }
    
     
@@ -62,3 +64,25 @@
     }
     
   }
+
+
+  @media only screen and (width:1920px) {
+    .main   {
+        width: 70%;
+       
+        padding: 0 40px;
+    }
+    .mainLogo{
+        height: 800px;
+        width: 700px;
+        
+    }
+   
+
+
+  }
+
+    
+    
+
+    

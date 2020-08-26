@@ -69,7 +69,7 @@
     padding-top: -34px;
     display: block;
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
     .Projects{
         padding: 9px;
         background-color: #fafafa;

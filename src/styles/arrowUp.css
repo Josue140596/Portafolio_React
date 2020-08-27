@@ -1,0 +1,19 @@
+.arrowContent{
+    transition: 0.6s;
+    width: 66px;
+    /* height: 63px; */
+    border-radius: 50%;
+    position: sticky;
+    /* padding-top: 7px; */
+    top: 300px;
+    margin: auto;
+    cursor: pointer;
+    padding: 0px;
+    height: 0px;
+
+}
+
+.imgArrow{
+    display: block;
+    margin: auto;
+}

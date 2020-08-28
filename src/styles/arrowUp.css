@@ -17,3 +17,14 @@
     display: block;
     margin: auto;
 }
+
+
+@media  only screen  and (max-width: 500px){
+    .arrowContent{
+        top: 480px;
+    
+    }
+    
+    
+
+}

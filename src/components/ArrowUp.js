@@ -34,28 +34,21 @@ const ArrowUp = ()=>{
                             opacity: '50%'
                         }) 
               }
-              if ( scroll >= 1000){
+              if ( scroll >= 1000 && scroll <= 1290){
                     setstate (
                         {
                             opacity: '0%'
                         }) 
               }
-              if ( scroll >= 1100 && scroll <= 1200){
+              if ( scroll >= 1300){
                     setstate (
                         {
                             opacity: '50%'
                         }) 
               }
-              if ( scroll >= 1420){
-                    setstate (
-                        {
-                            opacity: '50%'
-                        }) 
-                      
-              }
-            
           
-          console.log(scroll);
+            
+        
           };
 
           const scroll0 = ()=>{

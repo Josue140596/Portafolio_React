@@ -8,20 +8,74 @@ const Projects =()=>{
 
     const [state, setstate] = useState({})
 
-    const upInfoProjects = ()=>{
+    const upInfoProjects = (e)=>{
+        
       
         setstate({
             top :  '30%'
             }    
         )
        
-    }
+    
+
+      } 
+        
     const downInfoProjects =()=>{
+
         setstate({
             top :  '100%'
             }    
         )
     }
+
+    const projectsjSON = [
+        {Project:{
+            id: 1,
+            tituloProject: 'Buscador Giff',
+            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+            Languages: 'React',
+            Date: '12/05/20',
+            colorShadow: {
+                background: 'red'
+                }
+            }
+        },
+
+        {Project:{
+            id: 2,
+            tituloProject: 'To-Do',
+            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+            Languages: 'JS',
+            Date: '12/07/20',
+            colorShadow: {
+                background: 'red'
+                }
+            }
+        }
+    ]
+ 
+
+    const cardsProjects = projectsjSON.map(({Project})=>{
+
+        return( <div key={Project.id} className='cardsProjects' onMouseOver={upInfoProjects} onMouseLeave={downInfoProjects}>
+        <h1 className='tituloProjects' >{Project.tituloProject}</h1>
+  
+        <img className='ImageProject'  src={Project.imageProject} alt='logoReact'/>
+  
+        <div  key={Project.id} className='shadowProjects' style={state}>
+
+            <p className='infoProjects'>
+            Languages: {Project.Languages}
+            <br />
+    
+                Date: {Project.Date}
+             </p>
+                </div>
+        </div>
+        )
+    })
+        
+    
 
    
 
@@ -31,32 +85,16 @@ const Projects =()=>{
             <h1 className='titleProjects'>Projects</h1>
 
             <div className='contentProjects'>
-                <div className='cardsProjects' onMouseOver={upInfoProjects} onMouseLeave={downInfoProjects}>
-                <h1 className='tituloProjects' >Buscador Giff</h1>
-                  
-                        <img className='ImageProject'  src='https://cdn.worldvectorlogo.com/logos/react.svg' alt='logoReact'/>
-                  
-                
-                <div className='shadowProjects'style={state}>
-                    <p className='infoProjects'>
-                    Languages: React
-                    <br />
-                    
-                    Date: 12/05/20
-                    </p>
-                </div>
+
+            {cardsProjects}
+
+
+
+
+
+
                
-                
-                </div>
-                <div className='cardsProjects'>
-                
-                </div>
-                <div className='cardsProjects'>
-                
-                </div>
-                <div className='cardsProjects'>
-                
-                </div>
+               
             
             </div>
 

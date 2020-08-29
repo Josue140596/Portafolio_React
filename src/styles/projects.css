@@ -19,6 +19,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 3%;
+    
 
 }
 
@@ -31,6 +32,8 @@
     /* border: solid 1px; */
     margin: 5px;
     position: relative;
+    cursor: pointer;
+    
 
 }
 
@@ -38,11 +41,24 @@
     transition: 0.5s;
     width: 100%;
     top: 100%;
-    background: #32c6d0;
     height: 100%;
     position: absolute;
+    
+    
+}
+#link{
+    color: black;
+    text-decoration: none;
+}
+
+
+#shadowReact{
     background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(255 255 255 / 0%) 12%,
      rgb(103 170 179 / 89%) 32%, rgb(0 252 255 / 96%) 100%);
+}
+#shadowJS{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(255 255 255 / 0%) 12%, 
+    rgb(173 179 103 / 89%) 32%, rgb(235 255 0 / 96%) 100%);
 }
 
 .tituloProjects{
@@ -59,6 +75,7 @@
     /* color: #0c242e; */
     /* letter-spacing: 2px; */
     text-align: center;
+    
 }
 /* .contentImageProject{
 

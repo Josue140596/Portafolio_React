@@ -8,6 +8,8 @@ const Projects =()=>{
     
     const [state, setstate] = useState({})
 
+    
+
     const upInfoProjects = (e)=>{
         
       
@@ -52,22 +54,60 @@ const Projects =()=>{
             Date: '12/07/20',
             contentID: 'shadowJS'
             }
+        },
+        {Project:{
+            id: 3,
+            tituloProject: 'Dog Finder',
+            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+            enlace:'https://josue140596.github.io/DogFinder_React/',
+            Languages: 'React',
+            Date: '12/07/20',
+            contentID: 'shadowReact'
+            }
+        },
+        {Project:{
+            id: 4,
+            tituloProject: 'Dog Finder',
+            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+            enlace:'https://josue140596.github.io/DogFinder_React/',
+            Languages: 'React',
+            Date: '12/07/20',
+            contentID: 'shadowReact'
+            }
+        },
+        {Project:{
+            id: 5,
+            tituloProject: 'Dog Finder',
+            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+            enlace:'https://josue140596.github.io/DogFinder_React/',
+            Languages: 'React',
+            Date: '12/07/20',
+            contentID: 'shadowReact'
+            }
         }
     ]
-    
+  
+                   
+   
+
 
     const cardsProjects = projectsjSON.map(({Project})=>{
+
         
+           
+   
+        
+      
 
         return(
           
        
             
         <div key={Project.id} href={Project.enlace} className='cardsProjects' onMouseOver={upInfoProjects} onMouseLeave={downInfoProjects}>
-        <a id="link" target='_blank'  href={Project.enlace}>
+        <a id="link" target='_blank' rel="noopener noreferrer"  href={Project.enlace}>
         <h1 className='tituloProjects' >{Project.tituloProject}</h1>
   
-        <img className='ImageProject'  src={Project.imageProject} alt='logoReact'/>
+         <img className='ImageProject'  src={Project.imageProject} alt='logoReact'/>
   
         <div  key={Project.id} className='shadowProjects' id={Project.contentID} style={state}>
 
@@ -94,7 +134,7 @@ const Projects =()=>{
             <h1 className='titleProjects'>Projects</h1>
 
             <div className='contentProjects'>
-
+            
             {cardsProjects}
 
 

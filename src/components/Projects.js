@@ -8,22 +8,14 @@ const Projects =()=>{
     
     const [state, setstate] = useState({})
 
-    
-
     const upInfoProjects = (e)=>{
-        
-      
         setstate({
             top :  '30%'
             }    
         )
-       
-    
-
       } 
         
     const downInfoProjects =()=>{
-
         setstate({
             top :  '100%'
             }    
@@ -65,26 +57,7 @@ const Projects =()=>{
             contentID: 'shadowReact'
             }
         },
-        {Project:{
-            id: 4,
-            tituloProject: 'Dog Finder',
-            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
-            enlace:'https://josue140596.github.io/DogFinder_React/',
-            Languages: 'React',
-            Date: '12/07/20',
-            contentID: 'shadowReact'
-            }
-        },
-        {Project:{
-            id: 5,
-            tituloProject: 'Dog Finder',
-            imageProject: 'https://cdn.worldvectorlogo.com/logos/react.svg',
-            enlace:'https://josue140596.github.io/DogFinder_React/',
-            Languages: 'React',
-            Date: '12/07/20',
-            contentID: 'shadowReact'
-            }
-        }
+     
     ]
   
                    

@@ -35,37 +35,46 @@ const Principal = () =>{
             <div className='header'>
                 <ul className='nav'>
                     <li>
-                        <div className='linkedin'>
-                            <div className= 'linkedinIconBlack'>
-                                <img src={linkedinIconBlack} alt='linkedinIconBlack'/>
-                            </div>
-                            <div className='linkedinIconWhite'>
-                                <img src={linkedinIconWhite} alt='linkedinIconWhite' />
-                            </div>
-                        </div> 
+                        <a  href='https://www.linkedin.com/in/bryan-s%C3%A1nchez-rodr%C3%ADguez-82b29b1a9' rel="noopener noreferrer" target='_blank'>
+                            <div className='linkedin'>
+                                <div className= 'linkedinIconBlack'>
+                                    <img src={linkedinIconBlack} alt='linkedinIconBlack'/>
+                                </div>
+                                <div className='linkedinIconWhite'>
+                                    <img src={linkedinIconWhite} alt='linkedinIconWhite' />
+                                </div>
+                            </div> 
+                        </a>
                      </li>
 
 
                     <li>
-                        <div className='github'>
-                            <div className='githubIconBlack'>
-                                <img  src={githubIconBlack} alt='githubIconBlack'/>
-                            </div>
-                            <div className='githubIconWhite'>
-                                 <img  src={githubIconWithe} alt='githubIconWhite'/>
-                            </div>
+                        <a href='https://github.com/Josue140596' rel="noopener noreferrer" target='_blank'>
+                         <div className='github'>
+                                <div className='githubIconBlack'>
+                                   <img  src={githubIconBlack} alt='githubIconBlack'/>
+                                 </div>
+                                 <div className='githubIconWhite'>
+                                    <img  src={githubIconWithe} alt='githubIconWhite'/>
+                                </div>
                         </div>
+                        </a>
+                        
                     
                     </li>
                     <li>
-                        <div className='facebook'>
-                            <div className='facebookIconBlack'>
-                                <img  src={facebookIconBlack} alt='facebookIconBlack'/>
+                       
+                        
+                            <div className='facebook'>
+                                <div className='facebookIconBlack'>
+                                    <img  src={facebookIconBlack} alt='facebookIconBlack'/>
+                                </div>
+                                <div className='facebookIconWhite'>
+                                    <img  src={facebookIconWhite} alt='facebookIconWhite' />
+                                </div>
                             </div>
-                            <div className='facebookIconWhite'>
-                                 <img  src={facebookIconWhite} alt='facebookIconWhite' />
-                            </div>
-                        </div>
+                        
+                       
                     
                     </li>
                     <li>

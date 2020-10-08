@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import '../styles/projects.css';
 
@@ -6,22 +6,6 @@ import '../styles/projects.css';
 
 const Projects =()=>{
     
-    const [state, setstate] = useState({})
-
-    const upInfoProjects = (e)=>{
-        setstate({
-            top :  '30%'
-            }    
-        )
-      } 
-        
-    const downInfoProjects =()=>{
-        setstate({
-            top :  '100%'
-            }    
-        )
-    
-    }
 
  
 
@@ -76,13 +60,13 @@ const Projects =()=>{
           
        
             
-        <div key={Project.id} href={Project.enlace} className='cardsProjects' onMouseOver={upInfoProjects} onMouseLeave={downInfoProjects}>
+        <div key={Project.id} href={Project.enlace} className='cardsProjects' >
         <a id="link" target='_blank' rel="noopener noreferrer"  href={Project.enlace}>
         <h1 className='tituloProjects' >{Project.tituloProject}</h1>
   
          <img className='ImageProject'  src={Project.imageProject} alt='logoReact'/>
   
-        <div  key={Project.id} className='shadowProjects' id={Project.contentID} style={state}>
+        <div  key={Project.id} className='shadowProjects' id={Project.contentID} >
 
             <p className='infoProjects' key={Project.id}>
             Languages: {Project.Languages}

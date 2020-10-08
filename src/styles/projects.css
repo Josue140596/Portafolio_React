@@ -46,6 +46,11 @@
     
     
 }
+
+.cardsProjects:hover .shadowProjects{
+    top: 30%;
+} 
+
 #link{
     color: black;
     text-decoration: none;

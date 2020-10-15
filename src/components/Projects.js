@@ -41,6 +41,27 @@ const Projects =()=>{
             contentID: 'shadowReact'
             }
         },
+
+        {Project:{
+            id: 4,
+            tituloProject: 'Tienda DB',
+            imageProject: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png',
+            enlace:'https://github.com/Josue140596/ProductsMongoDB/blob/main/ProductsMongoDB.py',
+            Languages: 'Python',
+            Date: '08/10/20',
+            contentID: 'shadowPython'
+            }
+        },
+        {Project:{
+            id: 5,
+            tituloProject: 'Simple linear Regression',
+            imageProject: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png',
+            enlace:'https://github.com/Josue140596/SimpleLinearRegressionProyect/blob/main/SimpleLinearRegression.py',
+            Languages: 'Python',
+            Date: '10/10/20',
+            contentID: 'shadowPython'
+            }
+        },
      
     ]
   

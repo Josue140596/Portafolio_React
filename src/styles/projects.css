@@ -65,6 +65,9 @@
     background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(255 255 255 / 0%) 12%, 
     rgb(173 179 103 / 89%) 32%, rgb(235 255 0 / 96%) 100%);
 }
+#shadowPython{
+    background: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%, rgb(255 255 255 / 0%) 12%, rgb(103 179 170 / 89%) 32%, rgb(255 240 0 / 96%) 100%);
+}
 
 .tituloProjects{
     color: white;
